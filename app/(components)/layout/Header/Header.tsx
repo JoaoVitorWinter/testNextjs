@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="flex items-center justify-around py-2">
+    <header className="flex items-center justify-around bg-gray-50 py-2">
       <h1 className="text-2xl">WeatherWinter</h1>
       <nav>
         <ul className="flex gap-2 text-base text-blue-500 underline">
