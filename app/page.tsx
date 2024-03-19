@@ -6,8 +6,6 @@ import Header from './(components)/layout/Header';
 export default function Page() {
   const { push } = useRouter();
   return (
-    <>
-      <Header />
       <main className="grid w-full grid-flow-row grid-cols-6 items-center justify-center gap-8 md:grid-cols-12">
         <section className="relative pr-8 col-span-12 m-auto flex h-[90vh] w-full items-center justify-center bg-[url('/winter.png')] bg-cover bg-center">
           <div className="flex flex-col items-center justify-center gap-2 bg-gray-100 p-8">
@@ -18,6 +16,5 @@ export default function Page() {
           </div>
         </section>
       </main>
-    </>
   );
 }
